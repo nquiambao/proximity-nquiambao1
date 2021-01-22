@@ -35,7 +35,7 @@ section {
 }
 
 h1 {
-	color: #fe7854;
+	color: #ef9c46;
 	font-family: 'Kanit', sans-serif;
 	text-transform: lowercase;
 	font-weight: 800;
@@ -77,8 +77,8 @@ header a {
 }
 
 header a:hover {
-	color: #e68367;
-	border-bottom: 1px solid #e68367;
+	color: #ef9c46;
+	border-bottom: 1px solid #ef9c46;
 }
 
 /* Menu Items */
@@ -137,6 +137,7 @@ h3:nth-child(1),
 	font-size: 20px;
 	border-top: 1px solid #6d7583;
 	border-bottom: none;
+	letter-spacing: 1px;
 }
 
 .specials h2 span {
@@ -151,7 +152,7 @@ h3:nth-child(1),
 }
 
 .specials h3, .specials .menu-container .price {
-	color: #fe7854;
+	color: #e89329;
 }
 
 /* Drinks */
@@ -172,6 +173,10 @@ h3:nth-child(1),
 	color: #24252c;
 	font-size: 16px;
 	font-style: normal;
+}
+
+.drinks p.menu-description {
+	margin-bottom: 22px;
 }
 
 /* Other */
